@@ -1,7 +1,7 @@
 # site settings
-title: NBZIMM Tutorial
+title: Capstone Project
 description: > 
-  Learn about use of NBZIMM. 
+  Analyze toronto demographics. 
 
 # add the full url for the github repository
 repo: "https://github.com/evanwill/go-go-ghpages"
@@ -10,7 +10,7 @@ repo: "https://github.com/evanwill/go-go-ghpages"
 # your gh-pages url: https://username.github.io
 url: https://abbyyan3.github.io/
 # your repository name: /repository
-baseurl: /NBZIMM-tutorial
+baseurl: /capstone
 
 # defaults (to simplify front matter)
 defaults:
