@@ -2,10 +2,9 @@
 title: home
 ---
 
-# NBZIMM: Negative Binomial and Zero-Inflated Mixed Models
+# Segmentation and Comparison of Demographics of the neighborhoods in Toronto to guide House Hunting
 
-This R package provides functions for setting up and fitting negative binomial mixed models and zero-inflated negative binomial, Gaussian and Poisson models. These functions allow for mutiple and correlated group-specific (random) effects and various types of within-group correlation structures as described in the core package nlme, and return objects that can be summarized by functions in nlme. The methods can be used to analyze overdispersed and zero-inflated count or continuous responses with multilevel data structures (for example, clustered and longitudinal studies).  
-
+Everytime when we relocate for no matter reason, we will probably need to find a place to stay. It will be nice to know the neighborhood before we actually sign a lease or close a house. 
 
 Author: Nengjun Yi nyi@uab.edu
 
