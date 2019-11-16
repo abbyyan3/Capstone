@@ -25,9 +25,46 @@ In this study, I used python folium library to visualize geographic details of T
 # Results
 I utilized the Foursquare API to explore the neighborhoods and segment them. I designed the limit as 100 venue and the radius 500 meter for each borough from their given latitude and longitude information. Here is a head of the list Venues name, category, and latitude and longitude information from Foursquare API.
 
-
-<img src="1.png" alt="hi" class="inline"/>
-
-<img src="2.png" alt="hi" class="inline"/>
+<img src="7.png" alt="hi" class="inline"/>
 
 <img src="3.png" alt="hi" class="inline"/>
+
+The above bar chart shows a clear visualization for the neighborhoods with most and least number of venues. In summary of this graph 266 unique categories were returned by Foursquare, then I created a table which shows list of top 10 venue category for each neighborhood as in below table.
+
+<img src="8.png" alt="hi" class="inline"/>
+
+We have some common venue categories in neighborhoods. So we can use K-means algorithm to cluster the neighborhoods. To choose the optimal k for the K-means, we used Silhouette Value-versus-k plot as below. The optimal k is 8.
+
+<img src="9.png" alt="hi" class="inline"/>
+
+And below is the merged table with cluster labels, neighborhoods and their common venues.
+
+<img src="10.png" alt="hi" class="inline"/>
+
+Here is a map of Toronto neighborhoods colored by various clusters.
+
+<img src="11.png" alt="hi" class="inline"/>
+
+We can also visualize the number of 1st Most Common Venue in each cluster by creating a bar chart.
+
+<img src="12.png" alt="hi" class="inline"/>
+
+We also got data of Toronto demographics of neighborhoods, which could be used to provide us ideas about the income level, renter’s percentage and population in various neighborhoods.
+
+<img src="4.png" alt="hi" class="inline"/>
+
+<img src="5.png" alt="hi" class="inline"/>
+
+<img src="6.png" alt="hi" class="inline"/>
+
+#	Discussion
+Toronto is a diverse city with a high population density. The population densities and measurements vary across neighborhoods. I used the K-means algorithm as part of this clustering study. When I tested the Elbow method, I set the optimum k value to 7. However, the clustering is not ideal, with most of neighborhoods clustered in one cluster. 
+Visualization of the clustering information was provided through a bar chart and Toronto map. We also found from the demographics across various neighborhoods that population, income level and renter percentage is unequally distributed. The least populated neighborhoods, Lawrence Park and Rosedale, have the highest average income level. While the most populated neighborhoods, Agincourt and Woburn, are among the neighborhoods with top least income level. The neighborhoods with least renter’s percentage are Lawrence Park and Agincourt. 
+
+#	Conclusion
+Toronto is a diverse and highly populated city. We found the heterogeneous distributions in population, income level and renter percentage across various neighborhoods. Also, the distribution of different restaurants and shops vary across the neighborhoods. To know more about this city’s various neighborhoods, a further analysis with other data is needed to evaluate the diversity and culture in Toronto.
+
+# References:
+1.	https://en.wikipedia.org/wiki/Toronto
+
+
