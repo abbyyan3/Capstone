@@ -19,5 +19,15 @@ To provide the information as mentioned we acquire a list of data as following:
 2. Venues data, source: Forsquare API used to get the most common venues of given Borough of Toronto.
 3. Population density and average income data for Toronto, source: https://en.wikipedia.org/wiki/Demographics_of_Toronto and https://en.wikipedia.org/wiki/Demographics_of_Toronto_neighbourhoods. 
 
+# Methodology
+In this study, I used python folium library to visualize geographic details of Toronto and its boroughs and I created a map of Toronto with neighborhoods. Summary statistics and bar chart were provided to compare the venue category among various neighborhoods. Also, the summary statistics were provided to explore the differences in income level, race and other demographics among various neighborhoods. I used unsupervised learning K-means algorithm to cluster the neighborhoods K-Means algorithm is one of the most common cluster method of unsupervised learning. I will run K-Means to cluster the neighborhoods into k clusters because where I analyze the K-Means with elbow method to choose the optimum k of the K-Means.
+
+# Results
+I utilized the Foursquare API to explore the neighborhoods and segment them. I designed the limit as 100 venue and the radius 500 meter for each borough from their given latitude and longitude information. Here is a head of the list Venues name, category, and latitude and longitude information from Foursquare API.
 
 
+<img src="1.png" alt="hi" class="inline"/>
+
+<img src="2.png" alt="hi" class="inline"/>
+
+<img src="3.png" alt="hi" class="inline"/>
